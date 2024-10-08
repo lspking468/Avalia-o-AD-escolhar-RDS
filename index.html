@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Doação</title>
+    <link rel="stylesheet" href="./Assets/css/index.css">
+    <link rel="icon" href="./Assets/IMG/download-removebg-preview.ico">
+</head>
+<body>
+    <main>
+        <!-- título do formulário -->
+        <header>
+            <h1>Formulário de Doação</h1>
+            <img src="./Assets/IMG/download-removebg-preview.ico" alt="">
+        </header>
+        <div class="container_form">
+            <form action="" method="post">
+
+                <!-- campo de entrada para nome -->
+                <div class="nome_container">
+                    <label for="nome_input">
+                        Nome
+                    </label>
+                    <input type="text" placeholder="Digite seu nome" id="nome_input" required>
+                </div>
+                
+                <!-- campo de entrada para sobrenome -->
+                <div class="sobrenome_container">
+                    <label for="sobrenome_input">
+                        Sobrenome
+                    </label>
+                    <input type="text" placeholder="Digite seu sobrenome" id="sobrenome_input" required>
+                </div>
+
+                <!-- campo de entrada para email -->
+                <div class="email_container">
+                    <label for="email_input">
+                        Endereço de email
+                    </label>
+                    <input type="text" placeholder="Digite seu email" id="email_input" required>
+                </div>
+
+                <!-- campo de entrada para telefone -->
+                <div class="telefone_container">
+                    <label for="telefone_input">
+                        Número de Telefone
+                    </label>
+                    <input type="tel" placeholder="(xx) xx-xxxxxxxxx" id="telefone_input" autocomplete="tel" pattern="^\(\d{2})\d{4,5}-\d{4}$" required>
+                </div>
+
+                <!-- campo de entrada para escolher que a doação seja de forma anônima -->
+                <div class="doacao_anonima_container">
+                    <label for="doacao_anonima">Você deseja que a doação seja anônima:</label>
+                        <select id="doacao_anonima" name="doacao_anonima">
+                            <option value="Sim">Sim</option>
+                            <option value="Não">Não</option>
+                        </select>
+                </div>
+
+                <!-- campo de entrada para inserir o valor da doação -->
+                <div class="valor_doacao_container">
+                    <label for="valor_doacao_input">
+                    Valor da Doação  
+                </label>
+                <input type="number" placeholder="Valor da Doação" id="valor_doacao_input">
+                </div>
+                
+                <!-- campo de entrada para descrição -->
+                <div class="descricao_container">
+                <label for="descricao_input">
+                        Descrição
+                </label>
+                <input type="text" placeholder="Deixe uma descrição pelo motivo da doação..." id="descricao_input">
+                </div>
+
+                <!-- botão para concluir a doação -->
+                <button class="botao_doar">
+                    doar
+                </button>     
+            </form>
+        </div>
+    </main>
+</body>
+</html>
