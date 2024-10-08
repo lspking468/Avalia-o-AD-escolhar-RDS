@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilizando o cabecario do site */
+header {
+    border: 5px solid #AF8066;
+    width: 100vw; 
+    background-color: #CA190A; 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 7px;
+}
+
+/*  estilizando a logo do cabecario  */ 
+header img {
+    max-width: 50px;
+    margin-right: 50px; 
+}
+
+/* estilizando a logo do titulo dentro do cabecário */
+header h1 {
+    color: white;
+    font-size: 24px;
+    padding-block-start: 6.5px;
+}
+
+/* estilizando o corpo do site */
+body{
+    background-color: #FDD8AE; 
+}
+
+/* estilizando a tag principal do site onde temos os conteúdos */ 
+main {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+/*  estilizando o formulário  */ 
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    background-color: #CA190A;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: 2px solid #fff;
+}
+
+/* estilizando o cadastro de nome */ 
+.nome_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nome_container label{
+    font-size: 30px;
+    color: #ffffff;
+}
+.nome_container input{
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    padding-inline-start: 12px;
+    color: #CA190A;
+    font-weight: bold;
+}
+.nome_container input::placeholder{
+    color: #CA190A
+}
+
+/* estilizando o cadastro de sobrenome */
+.sobrenome_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobrenome_container label{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.sobrenome_container input{
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    padding-inline-start: 12px;
+    color: #CA190A;
+    font-weight: bold;
+}
+.sobrenome_container input::placeholder{
+    color: #CA190A
+}
+
+/* estilizando o cadastro de email */
+.email_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email_container label{
+    font-size: 30px;
+    color: #fff;
+}
+
+.email_container input{
+    height: 30px;
+    border: none;
+    color: #CA190A;
+    border-radius: 12px;
+    outline: none;
+    padding-inline-start: 12px;
+    font-weight: bold;
+}
+.email_container input::placeholder{
+    color: #CA190A
+}
+
+/* estilizando o cadastro de telefone */
+.telefone_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.telefone_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.telefone_container label{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.telefone_container input{
+    height: 30px;
+    border: none;
+    color: #CA190A;
+    border-radius: 12px;
+    outline: none;
+    padding-inline-start: 12px;
+    font-weight: bold;
+    height: 30px;
+}
+.telefone_container input::placeholder{
+    color: #CA190A
+}
+
+/* estilizando a escolha de doação anônima */
+.doacao_anonima_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.doacao_anonima_container label{
+    color: #ffffff;
+}
+
+.doacao_anonima_container select{
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    color: #CA190A;    
+    background-color: #fff;
+    font-weight: bold;
+    height: 30px;
+    padding-inline-start: 10px;
+}
+
+.doacao_anonima_container option{
+    color: #CA190A;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+/* estilizando o cadastro do valor da doação */
+.valor_doacao_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.valor_doacao_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.valor_doacao_container label{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.valor_doacao_container input{
+    height: 30px;
+    border: none;
+    color: #CA190A;
+    border-radius: 12px;
+    outline: none;
+    padding-inline-start: 12px;
+    font-weight: bold;
+    height: 30px;
+}
+.valor_doacao_container input::placeholder{
+    color: #CA190A
+}
+
+/* estilizando a descrição */
+.descricao_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descricao_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descricao_container label{
+    font-size: 30px;
+    color: #fff;
+}
+
+.descricao_container input{
+    padding-block-end: 25px;
+    padding-inline-start: 12.5px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    color: #CA190A;
+    border-radius: 12px;
+    outline: none;
+    padding-inline-start: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.descricao_container input::placeholder{
+    color: #CA190A;
+    font-size: 15px;
+}
+
+/* estilizando o botão de doação */
+button.botao_doar {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    background-color: #FF5733;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button.botao_doar:hover{
+    border: 1px solid #000;
+    color: #CA190A;
+    background-color: #ffff;
+    transition: 0.7s;
+}
